@@ -51,17 +51,17 @@ You can include ButterPop.js directly from a CDN:
 **jsDelivr:**
 ```html
 <!-- CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterpop@1.0.3/butterpop.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterpop@1.0.2/butterpop.min.css">
 
 <!-- JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/butterpop@1.0.3/butterpop.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/butterpop@1.0.2/butterpop.min.js"></script>
 ```
 
 
 **ES Module (for modern applications):**
 ```html
 <script type="module">
-  import ButterPop from 'https://cdn.jsdelivr.net/npm/butterpop@1.0.3/butterpop.esm.min.js';
+  import ButterPop from 'https://cdn.jsdelivr.net/npm/butterpop@1.0.2/butterpop.esm.min.js';
   
   // Your code here
   ButterPop.success('Hello from ES Module!');
