@@ -15,7 +15,7 @@ A lightweight, highly customizable toast notification library with no dependenci
 ## ✨ Features
 
 - **Zero Dependencies** - Pure vanilla JavaScript, no external libraries required
-- **Lightweight** - Under 10KB minified (CSS + JS), won't weigh down your project
+- **Lightweight** - Under 100KB minified (CSS + JS), won't weigh down your project
 - **Multiple Themes** - 41 beautiful built-in themes (Default, Minimal, Dark, Light, Glassmorphism, Neon, Material, Gradient, Rounded, Neumorphism, Retro, Cyberpunk, Pastel, Terminal, Elegant, Bubble, Forest, Futuristic, Comic, Luxury, Neon Brutalism, Monochrome, Candy, Aqua, Nordic, Blueprint, Paper, Origami, Sunset, Holographic, Chalk, Aurora, Corporate, Zen, Frost, Velvet, Quantum, Neon Glow, Watercolor, Vintage, Pixel Art, Handwritten)
 - **Fully Customizable** - Easily create your own themes or modify existing ones
 - **Responsive Design** - Looks great on all devices, from mobile to desktop
