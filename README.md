@@ -32,7 +32,7 @@ A lightweight, highly customizable toast notification library with no dependenci
 
 ### Direct Download
 
-Download the [latest release](https://github.com/Ayushx309/ButterPop.js) and include it in your project:
+Download the [latest release](https://github.com/Ayushx309/ButterPop.js/releases/) and include it in your project:
 
 ```html
 <link rel="stylesheet" href="butterpop.css">
