@@ -1,12 +1,12 @@
 # 🧈 ButterPop.js
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)](https://github.com/Ayushx309/ButterPop.js)
+[![Version](https://img.shields.io/badge/version-1.0.2-blue.svg)](https://github.com/Ayushx309/ButterPop.js)
 [![Size](https://img.shields.io/badge/size-<100kb-brightgreen.svg)](https://github.com/Ayushx309/ButterPop.js)
 
 A lightweight, highly customizable toast notification library with no dependencies. ButterPop makes creating beautiful, interactive notifications smooth as butter! 🍞✨
 
-[View Demo](https://ayushx309.eternalbytes.in/ButterPop.js/#demo) | [GitHub](https://github.com/Ayushx309/ButterPop.js)
+[View Demo](https://ayushx309.eternalbytes.in/ButterPop.js/) | [GitHub](https://github.com/Ayushx309/ButterPop.js)
 
 <p align="center">
   <img src="https://ayushx309.eternalbytes.in/ButterPop.js/banner.png" alt="ButterPop.js Demo" width="800" />
@@ -16,7 +16,7 @@ A lightweight, highly customizable toast notification library with no dependenci
 
 - **Zero Dependencies** - Pure vanilla JavaScript, no external libraries required
 - **Lightweight** - Under 10KB minified (CSS + JS), won't weigh down your project
-- **Multiple Themes** - 23 beautiful built-in themes (Default, Minimal, Dark, Light, Glassmorphism, Neon, Material, Gradient, Rounded, Neumorphism, Retro, Cyberpunk, Pastel, Terminal, Elegant, Bubble, Forest, Futuristic, Comic, Luxury, Neon Brutalism, Monochrome, Candy)
+- **Multiple Themes** - 41 beautiful built-in themes (Default, Minimal, Dark, Light, Glassmorphism, Neon, Material, Gradient, Rounded, Neumorphism, Retro, Cyberpunk, Pastel, Terminal, Elegant, Bubble, Forest, Futuristic, Comic, Luxury, Neon Brutalism, Monochrome, Candy, Aqua, Nordic, Blueprint, Paper, Origami, Sunset, Holographic, Chalk, Aurora, Corporate, Zen, Frost, Velvet, Quantum, Neon Glow, Watercolor, Vintage, Pixel Art, Handwritten)
 - **Fully Customizable** - Easily create your own themes or modify existing ones
 - **Responsive Design** - Looks great on all devices, from mobile to desktop
 - **Multiple Positions** - 7 positioning options for flexible placement
@@ -32,7 +32,7 @@ A lightweight, highly customizable toast notification library with no dependenci
 
 ### Direct Download
 
-Download the [latest release](https://github.com/Ayushx309/ButterPop.js/releases/tag/v1.0.1) and include it in your project:
+Download the [latest release](https://github.com/Ayushx309/ButterPop.js) and include it in your project:
 
 ```html
 <link rel="stylesheet" href="butterpop.css">
@@ -51,17 +51,17 @@ You can include ButterPop.js directly from a CDN:
 **jsDelivr:**
 ```html
 <!-- CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterpop@1.0.1/butterpop.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterpop@1.0.3/butterpop.min.css">
 
 <!-- JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/butterpop@1.0.1/butterpop.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/butterpop@1.0.3/butterpop.min.js"></script>
 ```
 
 
 **ES Module (for modern applications):**
 ```html
 <script type="module">
-  import ButterPop from 'https://cdn.jsdelivr.net/npm/butterpop@1.0.1/butterpop.esm.min.js';
+  import ButterPop from 'https://cdn.jsdelivr.net/npm/butterpop@1.0.3/butterpop.esm.min.js';
   
   // Your code here
   ButterPop.success('Hello from ES Module!');
@@ -165,7 +165,7 @@ Each action in the array accepts these properties:
 
 ## 🎨 Themes
 
-ButterPop.js comes with 23 beautiful built-in themes:
+ButterPop.js comes with 41 beautiful built-in themes:
 
 | Theme | Description |
 |-------|-------------|
@@ -192,6 +192,25 @@ ButterPop.js comes with 23 beautiful built-in themes:
 | `neon-brutalism` | Bold, skewed design with bright contrasting colors and thick outlines |
 | `monochrome` | Minimalist black and white design with geometric accents |
 | `candy` | Sweet, colorful design with dotted patterns and soft gradients |
+| `aqua` | Water-inspired theme with ocean gradients and wave effects |
+| `nordic` | Clean Scandinavian design with minimal colors and crisp aesthetics |
+| `blueprint` | Technical drawing style with grid backgrounds and structured layout |
+| `paper` | Paper texture with folded corner effect and subtle patterns |
+| `origami` | Paper-fold inspired design with sharp angles and geometric patterns |
+| `sunset` | Warm gradient colors inspired by sunset with soft light effects |
+| `holographic` | Iridescent metallic effect with rainbow highlights and reflections |
+| `chalk` | Chalkboard texture with handwritten style text and rustic appeal |
+| `aurora` | Northern lights inspired with flowing gradients and soft glows |
+| `corporate` | Professional business-like design with clean lines and subtle accents |
+| `zen` | Minimalist, calm design with subtle gradient accents and balanced aesthetics |
+| `frost` | Translucent frosted glass effect with subtle shadows and light reflections |
+| `velvet` | Rich, luxurious dark theme with elegant typography and gradient accents |
+| `quantum` | Futuristic sci-fi inspired theme with animated gradients and tech aesthetics |
+| `neon-glow` | Vibrant glowing text with colorful shadows and pulsing effects |
+| `watercolor` | Soft, artistic style with gradient backgrounds and subtle texture |
+| `vintage` | Retro-inspired design with aged paper texture and classic typography |
+| `pixel` | 8-bit style design with pixelated aesthetics and game-inspired colors |
+| `handwritten` | Casual note-like appearance with handwritten font and paper texture |
 
 ### Using Themes
 

@@ -1,7 +1,7 @@
 /**
  * ButterPop.js - A lightweight, customizable toast notification library
  * Author: Ayushx309 (https://github.com/Ayushx309)
- * Version: 1.0.0
+ * Version: 1.0.2
  * License: MIT
  */
 
@@ -153,6 +153,11 @@
         if (isDarkMode) {
           toast.classList.add('dark-theme');
         }
+      }
+      
+      // Support for specialized themes like holographic and aurora that have animations
+      if (['holographic', 'aurora'].includes(theme)) {
+        toast.classList.add('animated-theme');
       }
     }
     toast.id = id;
@@ -547,7 +552,7 @@
     // Try to load the CSS file
     const link = document.createElement('link');
     link.rel = 'stylesheet';
-    link.href = 'https://cdn.jsdelivr.net/npm/butterpop@1.0.1/butterpop.min.css';
+    link.href = 'https://cdn.jsdelivr.net/npm/butterpop@1.0.2/butterpop.min.css';
     link.setAttribute('data-butterpop-css', 'true');
     document.head.appendChild(link);
     
