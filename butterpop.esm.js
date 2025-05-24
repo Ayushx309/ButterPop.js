@@ -1,7 +1,7 @@
 /**
  * ButterPop.js - A lightweight, customizable toast notification library (ESM version)
  * Author: Ayushx309 (https://github.com/Ayushx309)
- * Version: 1.0.2
+ * Version: 1.0.3
  * License: MIT
  */
 
@@ -228,6 +228,10 @@ const createToastElement = (options) => {
   if (progress && duration && duration > 0) {
     const progressBar = document.createElement('div');
     progressBar.className = 'butterpop-progress';
+    // Set custom progress color if provided
+    if (options.progressColor) {
+      progressBar.style.background = options.progressColor;
+    }
     toast.appendChild(progressBar);
     
     // Start progress animation after a short delay to ensure DOM is updated
@@ -545,7 +549,7 @@ const injectCSS = () => {
   // Try to load the CSS file
   const link = document.createElement('link');
   link.rel = 'stylesheet';
-  link.href = 'https://cdn.jsdelivr.net/npm/butterpop@1.0.2/butterpop.min.css';
+  link.href = 'https://cdn.jsdelivr.net/npm/butterpop@1.0.3/butterpop.min.css';
   link.setAttribute('data-butterpop-css', 'true');
   document.head.appendChild(link);
   
@@ -749,7 +753,12 @@ const update = (id, options = {}) => {
     const progressBar = element.querySelector('.butterpop-progress');
     progressBar.style.transition = 'none';
     progressBar.style.transform = 'scaleX(0)';
-    
+    // Update progress color if provided
+    if (options.progressColor) {
+      progressBar.style.background = options.progressColor;
+    } else {
+      progressBar.style.background = '';
+    }
     // Reset the progress bar
     setTimeout(() => {
       progressBar.style.transition = `transform ${options.duration}ms linear`;
