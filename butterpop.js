@@ -1,7 +1,7 @@
 /**
  * ButterPop.js - A lightweight, customizable toast notification library
  * Author: Ayushx309 (https://github.com/Ayushx309)
- * Version: 1.0.3
+ * Version: 1.0.4
  * License: MIT
  */
 
@@ -304,6 +304,11 @@
     // Add exit class for animation
     element.classList.add(globalConfig.hideClass);
     
+    // Call onClose callback if provided
+    if (toastData.options && typeof toastData.options.onClose === 'function') {
+      toastData.options.onClose(element);
+    }
+    
     // Remove from DOM after animation
     setTimeout(() => {
       if (element.parentNode) {
@@ -556,7 +561,7 @@
     // Try to load the CSS file
     const link = document.createElement('link');
     link.rel = 'stylesheet';
-    link.href = 'https://cdn.jsdelivr.net/npm/butterpop@1.0.3/butterpop.min.css';
+    link.href = 'https://cdn.jsdelivr.net/npm/butterpop@1.0.4/butterpop.min.css';
     link.setAttribute('data-butterpop-css', 'true');
     document.head.appendChild(link);
     

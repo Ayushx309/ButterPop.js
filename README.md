@@ -1,7 +1,7 @@
 # 🧈 ButterPop.js
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-1.0.3-blue.svg)](https://github.com/Ayushx309/ButterPop.js)
+[![Version](https://img.shields.io/badge/version-1.0.4-blue.svg)](https://github.com/Ayushx309/ButterPop.js)
 [![Size](https://img.shields.io/badge/size-<100kb-brightgreen.svg)](https://github.com/Ayushx309/ButterPop.js)
 
 A lightweight, highly customizable toast notification library with no dependencies. ButterPop makes creating beautiful, interactive notifications smooth as butter! 🍞✨
@@ -51,17 +51,17 @@ You can include ButterPop.js directly from a CDN:
 **jsDelivr:**
 ```html
 <!-- CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterpop@1.0.3/butterpop.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterpop@1.0.4/butterpop.min.css">
 
 <!-- JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/butterpop@1.0.3/butterpop.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/butterpop@1.0.4/butterpop.min.js"></script>
 ```
 
 
 **ES Module (for modern applications):**
 ```html
 <script type="module">
-  import ButterPop from 'https://cdn.jsdelivr.net/npm/butterpop@1.0.3/butterpop.esm.min.js';
+  import ButterPop from 'https://cdn.jsdelivr.net/npm/butterpop@1.0.4/butterpop.esm.min.js';
   
   // Your code here
   ButterPop.success('Hello from ES Module!');
