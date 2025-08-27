@@ -3,6 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-1.0.4-blue.svg)](https://github.com/Ayushx309/ButterPop.js)
 [![Size](https://img.shields.io/badge/size-<100kb-brightgreen.svg)](https://github.com/Ayushx309/ButterPop.js)
+[![](https://data.jsdelivr.com/v1/package/npm/butterpop/badge)](https://www.jsdelivr.com/package/npm/butterpop)
 
 A lightweight, highly customizable toast notification library with no dependencies. ButterPop makes creating beautiful, interactive notifications smooth as butter! 🍞✨
 
